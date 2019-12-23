@@ -1,0 +1,11 @@
+C:\Users\Ignas\source\repos\ToDoFinal\ToDoFinal.Data\obj\Debug\netcoreapp3.1\ToDoFinal.Data.AssemblyInfoInputs.cache
+C:\Users\Ignas\source\repos\ToDoFinal\ToDoFinal.Data\obj\Debug\netcoreapp3.1\ToDoFinal.Data.AssemblyInfo.cs
+C:\Users\Ignas\source\repos\ToDoFinal\ToDoFinal.Data\bin\Debug\netcoreapp3.1\ToDoFinal.Data.deps.json
+C:\Users\Ignas\source\repos\ToDoFinal\ToDoFinal.Data\bin\Debug\netcoreapp3.1\ToDoFinal.Data.dll
+C:\Users\Ignas\source\repos\ToDoFinal\ToDoFinal.Data\bin\Debug\netcoreapp3.1\ToDoFinal.Data.pdb
+C:\Users\Ignas\source\repos\ToDoFinal\ToDoFinal.Data\bin\Debug\netcoreapp3.1\ToDoFinal.Models.dll
+C:\Users\Ignas\source\repos\ToDoFinal\ToDoFinal.Data\bin\Debug\netcoreapp3.1\ToDoFinal.Models.pdb
+C:\Users\Ignas\source\repos\ToDoFinal\ToDoFinal.Data\obj\Debug\netcoreapp3.1\ToDoFinal.Data.csprojAssemblyReference.cache
+C:\Users\Ignas\source\repos\ToDoFinal\ToDoFinal.Data\obj\Debug\netcoreapp3.1\ToDoFinal.Data.csproj.CopyComplete
+C:\Users\Ignas\source\repos\ToDoFinal\ToDoFinal.Data\obj\Debug\netcoreapp3.1\ToDoFinal.Data.dll
+C:\Users\Ignas\source\repos\ToDoFinal\ToDoFinal.Data\obj\Debug\netcoreapp3.1\ToDoFinal.Data.pdb

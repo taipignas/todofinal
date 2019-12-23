@@ -1,0 +1,13 @@
+C:\Users\Ignas\source\repos\ToDoFinal\ToDoFinal.Identity\bin\Debug\netcoreapp3.1\ToDoFinal.Identity.deps.json
+C:\Users\Ignas\source\repos\ToDoFinal\ToDoFinal.Identity\bin\Debug\netcoreapp3.1\ToDoFinal.Identity.dll
+C:\Users\Ignas\source\repos\ToDoFinal\ToDoFinal.Identity\obj\Debug\netcoreapp3.1\ToDoFinal.Identity.AssemblyInfoInputs.cache
+C:\Users\Ignas\source\repos\ToDoFinal\ToDoFinal.Identity\obj\Debug\netcoreapp3.1\ToDoFinal.Identity.AssemblyInfo.cs
+C:\Users\Ignas\source\repos\ToDoFinal\ToDoFinal.Identity\bin\Debug\netcoreapp3.1\ToDoFinal.Models.dll
+C:\Users\Ignas\source\repos\ToDoFinal\ToDoFinal.Identity\bin\Debug\netcoreapp3.1\ToDoFinal.Models.pdb
+C:\Users\Ignas\source\repos\ToDoFinal\ToDoFinal.Identity\obj\Debug\netcoreapp3.1\ToDoFinal.Identity.csprojAssemblyReference.cache
+C:\Users\Ignas\source\repos\ToDoFinal\ToDoFinal.Identity\obj\Debug\netcoreapp3.1\ToDoFinal.Identity.csproj.CopyComplete
+C:\Users\Ignas\source\repos\ToDoFinal\ToDoFinal.Identity\bin\Debug\netcoreapp3.1\ToDoFinal.Identity.runtimeconfig.json
+C:\Users\Ignas\source\repos\ToDoFinal\ToDoFinal.Identity\bin\Debug\netcoreapp3.1\ToDoFinal.Identity.runtimeconfig.dev.json
+C:\Users\Ignas\source\repos\ToDoFinal\ToDoFinal.Identity\bin\Debug\netcoreapp3.1\ToDoFinal.Identity.pdb
+C:\Users\Ignas\source\repos\ToDoFinal\ToDoFinal.Identity\obj\Debug\netcoreapp3.1\ToDoFinal.Identity.dll
+C:\Users\Ignas\source\repos\ToDoFinal\ToDoFinal.Identity\obj\Debug\netcoreapp3.1\ToDoFinal.Identity.pdb

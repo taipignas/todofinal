@@ -1,0 +1,13 @@
+C:\Users\Ignas\source\repos\ToDoFinal\ToDoFinal.Services\bin\Release\netcoreapp3.1\ToDoFinal.Services.deps.json
+C:\Users\Ignas\source\repos\ToDoFinal\ToDoFinal.Services\bin\Release\netcoreapp3.1\ToDoFinal.Services.dll
+C:\Users\Ignas\source\repos\ToDoFinal\ToDoFinal.Services\bin\Release\netcoreapp3.1\ToDoFinal.Services.pdb
+C:\Users\Ignas\source\repos\ToDoFinal\ToDoFinal.Services\bin\Release\netcoreapp3.1\ToDoFinal.Data.dll
+C:\Users\Ignas\source\repos\ToDoFinal\ToDoFinal.Services\bin\Release\netcoreapp3.1\ToDoFinal.Models.dll
+C:\Users\Ignas\source\repos\ToDoFinal\ToDoFinal.Services\bin\Release\netcoreapp3.1\ToDoFinal.Data.pdb
+C:\Users\Ignas\source\repos\ToDoFinal\ToDoFinal.Services\bin\Release\netcoreapp3.1\ToDoFinal.Models.pdb
+C:\Users\Ignas\source\repos\ToDoFinal\ToDoFinal.Services\obj\Release\netcoreapp3.1\ToDoFinal.Services.csprojAssemblyReference.cache
+C:\Users\Ignas\source\repos\ToDoFinal\ToDoFinal.Services\obj\Release\netcoreapp3.1\ToDoFinal.Services.AssemblyInfoInputs.cache
+C:\Users\Ignas\source\repos\ToDoFinal\ToDoFinal.Services\obj\Release\netcoreapp3.1\ToDoFinal.Services.AssemblyInfo.cs
+C:\Users\Ignas\source\repos\ToDoFinal\ToDoFinal.Services\obj\Release\netcoreapp3.1\ToDoFinal.Services.csproj.CopyComplete
+C:\Users\Ignas\source\repos\ToDoFinal\ToDoFinal.Services\obj\Release\netcoreapp3.1\ToDoFinal.Services.dll
+C:\Users\Ignas\source\repos\ToDoFinal\ToDoFinal.Services\obj\Release\netcoreapp3.1\ToDoFinal.Services.pdb

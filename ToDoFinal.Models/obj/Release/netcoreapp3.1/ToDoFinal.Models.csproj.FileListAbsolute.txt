@@ -1,0 +1,8 @@
+C:\Users\Ignas\source\repos\ToDoFinal\ToDoFinal.Models\bin\Release\netcoreapp3.1\ToDoFinal.Models.deps.json
+C:\Users\Ignas\source\repos\ToDoFinal\ToDoFinal.Models\bin\Release\netcoreapp3.1\ToDoFinal.Models.dll
+C:\Users\Ignas\source\repos\ToDoFinal\ToDoFinal.Models\bin\Release\netcoreapp3.1\ToDoFinal.Models.pdb
+C:\Users\Ignas\source\repos\ToDoFinal\ToDoFinal.Models\obj\Release\netcoreapp3.1\ToDoFinal.Models.csprojAssemblyReference.cache
+C:\Users\Ignas\source\repos\ToDoFinal\ToDoFinal.Models\obj\Release\netcoreapp3.1\ToDoFinal.Models.AssemblyInfoInputs.cache
+C:\Users\Ignas\source\repos\ToDoFinal\ToDoFinal.Models\obj\Release\netcoreapp3.1\ToDoFinal.Models.AssemblyInfo.cs
+C:\Users\Ignas\source\repos\ToDoFinal\ToDoFinal.Models\obj\Release\netcoreapp3.1\ToDoFinal.Models.dll
+C:\Users\Ignas\source\repos\ToDoFinal\ToDoFinal.Models\obj\Release\netcoreapp3.1\ToDoFinal.Models.pdb

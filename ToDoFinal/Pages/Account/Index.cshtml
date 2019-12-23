@@ -1,0 +1,12 @@
+﻿@page
+@model ToDoFinal.web.Pages.Account.IndexModel
+@using Microsoft.AspNetCore.Identity
+@using ToDoFinal.Identity
+
+@inject SignInManager<ToDoUser> SignInManager
+@inject UserManager<ToDoUser> UserManager
+
+<div class="text-center">
+    <h1 class="display-4">Welcome @UserManager.GetUserName(User)</h1>
+    <p>You can view your tasks <a href="/index">here</a>.</p>
+</div>
