@@ -1,0 +1,130 @@
+﻿@page
+@using ToDoFinal.Models
+@model ToDoFinal.web.Pages.TaskAdminModel
+@{
+    ViewData["Title"] = "Manage User Tasks";
+}
+
+<h4>@ViewData["Title"]</h4>
+
+<form method="post">
+    <button type="submit" class="btn btn-primary" asp-page-handler="Hide">@(Model.HideCompleted == 0 ? "Hide" : "Show") Completed Tasks</button>
+</form>
+<partial name="_StatusMessage" model="Model.StatusMessage" />
+
+<ul class="list-unstyled">
+    @foreach (var user in Model.Users)
+        @if (user.Tasks.Count > 0)
+        {
+            <li>
+                <h3>@user.Username</h3>
+                <ul class="list-unstyled">
+                    @foreach (ToDoTask task in user.Tasks)
+                    {
+                        @if (task.Status == Status.Done && Model.HideCompleted == 1) { }
+                        else
+                        {
+                            <li>
+                                <form class="px-4 py-3" method="post">
+                                    <div class="row">
+                                        <h5>@task.Description</h5>
+                                    </div>
+                                    <div class="row">
+                                        <div class="d-none">
+                                            <input id="userid-@task.Id" asp-for="Input.UserId" class="form-control" type="hidden" value="@user.Id" />
+                                        </div>
+                                        <div class="d-none">
+                                            <input id="taskid-@task.Id" asp-for="Input.Id" class="form-control" type="hidden" value="@task.Id" />
+                                        </div>
+                                        <div class="col px-1">
+                                            <select id="priority-@task.Id" asp-for="Input.Priority" class="custom-select" id="priority-@user.Id">
+                                                <option value="0" selected=@(task.Priority==Priority.Low)>Low</option>
+                                                <option value="1" selected=@(task.Priority==Priority.Medium)>Medium</option>
+                                                <option value="2" selected=@(task.Priority==Priority.High)>High</option>
+                                            </select>
+                                        </div>
+                                        <div class="col px-1">
+                                            <input id="dueDate-@task.Id" asp-for="Input.DueDate" type="datetime-local" class="form-control" value="@task.DueDate.ToString("yyyy-MM-ddTHH:mm")" required>
+                                        </div>
+                                        <div class="col px-1">
+                                            <select id="status-@task.Id" asp-for="Input.Status" class="custom-select">
+                                                <option value="0" selected=@(task.Status==Status.New)>New</option>
+                                                <option value="1" selected=@(task.Status==Status.Active)>Active</option>
+                                                <option value="2" selected=@(task.Status==Status.Done)>Done</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-auto px-1">
+                                            <button type="submit" class="btn btn-primary" asp-page-handler="UpdateTask">Update</button>
+                                        </div>
+                                        <div class="col-auto px-1">
+                                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#confirmDelete-@task.Id">Delete</button>
+                                            <div class="modal fade" id="confirmDelete-@task.Id" tabindex="-1" role="dialog" aria-labelledby="confirmDelete-@task.Id" aria-hidden="true">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title" id="confirmDelete-@task.Id">Confirm task deletion</h5>
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <p>Do you realy want to delete task @task.Description?</p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <form method="post">
+                                                                <div class="d-none">
+                                                                    <input id="deleteTaskid-@task.Id" asp-for="Input.Id" class="form-control" type="hidden" value="@task.Id" />
+                                                                </div>
+                                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                                <button type="submit" class="btn btn-primary" asp-page-handler="DeleteTask">Delete</button>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </li>
+                        }
+                    }
+                </ul>
+            </li>
+        }
+    </ul>
+
+    <h4 class="mt-2">Add Task</h4>
+    <div class="col">
+        <form method="post" id="AddTask">
+            <div class="row pb-2">
+                <div class="col-3">
+                    <select asp-for="Input.UserId" class="custom-select">
+                        @foreach (var user in Model.Users)
+                        {
+                            <option value="@user.Id">@user.Username</option>
+                        }
+                    </select>
+                </div>
+                <div class="col-9">
+                    <input asp-for="Input.Description" class="form-control" type="text" placeholder="Description" minlength="3" required />
+                    <span asp-validation-for="Input.Description"></span><br />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col px-1">
+                    <select asp-for="Input.Priority" class="custom-select">
+                        <option selected>Priority</option>
+                        <option value="0">Low</option>
+                        <option value="1">Medium</option>
+                        <option value="2">High</option>
+                    </select>
+                </div>
+                <div class="col px-1">
+                    <input asp-for="Input.DueDate" class="form-control" value="@DateTime.Now.ToString("yyyy-MM-ddTHH:mm")" required>
+                </div>
+                <div class="col-auto px-1">
+                    <button type="submit" class="btn btn-primary" asp-page-handler="AddTask">Add</button>
+                </div>
+            </div>
+        </form>
+    </div>

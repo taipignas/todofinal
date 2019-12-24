@@ -25,24 +25,20 @@
                     </div>
                     <div class="row">
                         <div class="d-none">
-                            <input asp-for="Input.Id" class="form-control" type="hidden" value="@task.Id" />
+                            <input id="taskid-@task.Id" asp-for="Input.Id" class="form-control" type="hidden" value="@task.Id" />
                         </div>
                         <div class="col">
-                            <select asp-for="Input.Priority" class="custom-select">
+                            <select id="priority-@task.Id" asp-for="Input.Priority" class="custom-select">
                                 <option value="0" selected=@(task.Priority==Priority.Low)>Low</option>
                                 <option value="1" selected=@(task.Priority==Priority.Medium)>Medium</option>
                                 <option value="2" selected=@(task.Priority==Priority.High)>High</option>
                             </select>
                         </div>
-                        @*<div class="col">
-                                <span class="">@task.DueDate.ToString("yyyy-MM-dd")</span>
-                                <span class="">@task.DueDate.ToShortTimeString()</span>
-                            </div>*@
                         <div class="col">
-                            <input asp-for="Input.DueDate" type="datetime-local" class="form-control" value="@task.DueDate.ToString("yyyy-MM-ddTHH:mm")" required>
+                            <input id="dueDate-@task.Id" asp-for="Input.DueDate" type="datetime-local" class="form-control" value="@task.DueDate.ToString("yyyy-MM-ddTHH:mm")" required>
                         </div>
                         <div class="col">
-                            <select asp-for="Input.Status" class="custom-select">
+                            <select id="status-@task.Id" asp-for="Input.Status" class="custom-select">
                                 <option value="0" selected=@(task.Status==Status.New)>New</option>
                                 <option value="1" selected=@(task.Status==Status.Active)>Active</option>
                                 <option value="2" selected=@(task.Status==Status.Done)>Done</option>

@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ToDoFinal.Data\ToDoFinal.Data.csproj" />
+    <ProjectReference Include="..\ToDoFinal.Identity\ToDoFinal.Identity.csproj" />
   </ItemGroup>
 
 </Project>

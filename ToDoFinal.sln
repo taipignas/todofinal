@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoFinal.Models", "ToDoFin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoFinal.Identity", "ToDoFinal.Identity\ToDoFinal.Identity.csproj", "{B3F3CB66-DE3A-484C-AF73-3F9015EB028A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoFinal.Services", "ToDoFinal.Services\ToDoFinal.Services.csproj", "{56D82CD6-3735-4E8F-87AB-183FCB3C740F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoFinal.Services", "ToDoFinal.Services\ToDoFinal.Services.csproj", "{56D82CD6-3735-4E8F-87AB-183FCB3C740F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

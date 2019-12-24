@@ -6,7 +6,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAZGzVv3Z7kUSUhZKWkH/McgAAAAACAAAAAAAQZgAAAAEAACAAAADmClFjH3KyQhUVRTvZFFRhqB0Tg8QT1RnS6xWGXtIy7gAAAAAOgAAAAAIAACAAAADhMtp+pp7/69+TFc2qC/p312wbgQMcBJ6BuavFeQrPqoAAAAB/ba8ZkQ8UOzf/bj5vWR4B4hNHANL+Z+mFtaAbRmWvMr6ZXpCbHFaz1P60JJJYyenX4lqAULzLzD3zsv1c/iQ4X5uTS1Iz8UjZ0il59PcXFGngaMLcV3G0OuYGjD8bsQG3x5j8TbEOalMZrzWPtfUggt6lt4N8ojDlezLcUg2z6EAAAABBEDiaRkEVjwMfvKeSGIJPf7S1RkP3ZJa1KJRmip5uTJfaqIqE2mXhi2itY0E6tY6LVc3JjQKpkD7EZ+hov2SB</EncryptedPassword>
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAZGzVv3Z7kUSUhZKWkH/McgAAAAACAAAAAAAQZgAAAAEAACAAAAD8PBH2OiyZ2W8njclSGNYWukr23T/4iFgz38FloBYTSQAAAAAOgAAAAAIAACAAAABLt24EVOwmDNuclUiR6gNbdCNOjYUWVfnr23NneW4Ft4AAAAAWvjP9VBd3jRgXbft0kttQ6t9Fb1cXYwM1gUpODxDLLnnjllxRVujM1JgQTrQq+GwlKxzEmpcBGDx6e9Zp2QDyFl9LHu38vV017XRHoNkVW47Bo1eiEnCfJqtUlIHjqqNZbFUGcyj5XSk89ggRAgtYto7JfvNPgo2vCVXZqlaBWEAAAADm1d2E6H4TQ4nggAKHs2/+xru0hMoCDMbhM1v3wo+EpjLriuqDBz1Pk45SF/xsWOCW1ydwDvcfISWasWIh6U0w</EncryptedPassword>
     <_PublishTargetUrl>ftp://waws-prod-am2-153.ftp.azurewebsites.windows.net/site/wwwroot</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
@@ -14,7 +14,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/23/2019 15:49:36</publishTime>
     </File>
     <File Include="appsettings.json">
-      <publishTime>12/23/2019 21:43:29</publishTime>
+      <publishTime>12/24/2019 09:00:56</publishTime>
     </File>
     <File Include="cs/Microsoft.CodeAnalysis.CSharp.resources.dll">
       <publishTime>09/12/2019 17:08:58</publishTime>
@@ -103,23 +103,8 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="ko/Microsoft.CodeAnalysis.Workspaces.resources.dll">
       <publishTime>09/12/2019 17:08:36</publishTime>
     </File>
-    <File Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll">
-      <publishTime>11/16/2019 11:19:48</publishTime>
-    </File>
-    <File Include="Microsoft.AspNetCore.Identity.UI.dll">
-      <publishTime>11/16/2019 11:28:00</publishTime>
-    </File>
-    <File Include="Microsoft.AspNetCore.Identity.UI.Views.V3.dll">
-      <publishTime>11/16/2019 11:34:10</publishTime>
-    </File>
-    <File Include="Microsoft.AspNetCore.Identity.UI.Views.V4.dll">
-      <publishTime>11/16/2019 11:36:50</publishTime>
-    </File>
     <File Include="Microsoft.AspNetCore.Razor.Language.dll">
       <publishTime>11/16/2019 06:08:46</publishTime>
-    </File>
-    <File Include="Microsoft.Bcl.AsyncInterfaces.dll">
-      <publishTime>11/15/2019 08:38:02</publishTime>
     </File>
     <File Include="Microsoft.Bcl.HashCode.dll">
       <publishTime>11/15/2019 08:38:50</publishTime>
@@ -143,9 +128,6 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/26/2019 20:43:28</publishTime>
     </File>
     <File Include="Microsoft.EntityFrameworkCore.Abstractions.dll">
-      <publishTime>01/01/1980 00:00:00</publishTime>
-    </File>
-    <File Include="Microsoft.EntityFrameworkCore.dll">
       <publishTime>01/01/1980 00:00:00</publishTime>
     </File>
     <File Include="Microsoft.EntityFrameworkCore.Relational.dll">
@@ -268,50 +250,32 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="System.Security.Cryptography.ProtectedData.dll">
       <publishTime>05/15/2018 13:29:44</publishTime>
     </File>
-    <File Include="ToDoFinal.Data.dll">
-      <publishTime>12/23/2019 23:53:00</publishTime>
-    </File>
     <File Include="ToDoFinal.Data.pdb">
-      <publishTime>12/23/2019 23:53:00</publishTime>
-    </File>
-    <File Include="ToDoFinal.Identity.dll">
-      <publishTime>12/23/2019 23:52:59</publishTime>
+      <publishTime>12/24/2019 09:39:29</publishTime>
     </File>
     <File Include="ToDoFinal.Identity.pdb">
-      <publishTime>12/23/2019 23:52:59</publishTime>
-    </File>
-    <File Include="ToDoFinal.Models.dll">
-      <publishTime>12/23/2019 23:52:58</publishTime>
+      <publishTime>12/24/2019 09:39:29</publishTime>
     </File>
     <File Include="ToDoFinal.Models.pdb">
       <publishTime>12/23/2019 23:52:58</publishTime>
     </File>
-    <File Include="ToDoFinal.Services.dll">
-      <publishTime>12/23/2019 23:53:00</publishTime>
-    </File>
     <File Include="ToDoFinal.Services.pdb">
-      <publishTime>12/23/2019 23:53:00</publishTime>
+      <publishTime>12/24/2019 09:39:29</publishTime>
     </File>
     <File Include="ToDoFinal.web.deps.json">
-      <publishTime>12/23/2019 23:57:57</publishTime>
-    </File>
-    <File Include="ToDoFinal.web.dll">
-      <publishTime>12/23/2019 23:57:52</publishTime>
+      <publishTime>12/24/2019 09:46:29</publishTime>
     </File>
     <File Include="ToDoFinal.web.exe">
-      <publishTime>12/23/2019 23:57:53</publishTime>
+      <publishTime>12/24/2019 09:46:28</publishTime>
     </File>
     <File Include="ToDoFinal.web.pdb">
-      <publishTime>12/23/2019 23:57:52</publishTime>
+      <publishTime>12/24/2019 09:46:28</publishTime>
     </File>
     <File Include="ToDoFinal.web.runtimeconfig.json">
-      <publishTime>12/23/2019 23:53:03</publishTime>
-    </File>
-    <File Include="ToDoFinal.web.Views.dll">
-      <publishTime>12/23/2019 23:57:53</publishTime>
+      <publishTime>12/24/2019 09:39:33</publishTime>
     </File>
     <File Include="ToDoFinal.web.Views.pdb">
-      <publishTime>12/23/2019 23:57:53</publishTime>
+      <publishTime>12/24/2019 09:46:29</publishTime>
     </File>
     <File Include="tr/Microsoft.CodeAnalysis.CSharp.resources.dll">
       <publishTime>09/12/2019 17:09:00</publishTime>
@@ -326,7 +290,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/12/2019 17:08:36</publishTime>
     </File>
     <File Include="web.config">
-      <publishTime>12/23/2019 23:57:57</publishTime>
+      <publishTime>12/24/2019 09:46:29</publishTime>
     </File>
     <File Include="wwwroot/css/site.css">
       <publishTime>12/23/2019 15:49:37</publishTime>

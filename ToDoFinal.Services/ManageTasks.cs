@@ -32,5 +32,12 @@ namespace ToDoFinal.Services
             taskForUpdate.Status = task.Status;
             _context.SaveChanges();
         }
+
+        public void DeleteTask(int taskId)
+        {
+            ToDoTask taskToDelete = _context.Tasks.FirstOrDefault(t => t.Id == taskId);
+            _context.Tasks.Remove(taskToDelete);
+            _context.SaveChanges();
+        }
     }
 }

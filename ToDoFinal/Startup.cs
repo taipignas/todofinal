@@ -35,6 +35,9 @@ namespace ToDoFinal.web
                     .AddRoles<IdentityRole>()
                     .AddEntityFrameworkStores<ToDoUserContext>();
             services.AddScoped<ManageTasks>();
+            services.AddScoped<AdminTasks>();
+            services.AddScoped<ManageUsers>();
+
 
 
             services.AddSession();

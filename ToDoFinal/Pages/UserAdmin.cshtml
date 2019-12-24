@@ -1,0 +1,22 @@
+﻿@page
+@model ToDoFinal.web.Pages.UserAdminModel
+@{
+    ViewData["Title"] = "Manage User Roles";
+}
+
+<h4>@ViewData["Title"]</h4>
+<partial name="_StatusMessage" model="Model.StatusMessage" />
+<ul class="list-unstyled">
+    @foreach (var isAdmin in Model.IsAdmin.Select((value, i) => new { i, value }))
+    {
+        <li>
+            <form method="post" class="d-flex">
+                <div class="d-none">
+                    <input asp-for="Input.Username" class="form-control" type="hidden" value="@Model.Users[isAdmin.i]" />
+                </div>
+                <h4 class="d-inline-block col-3">@Model.Users[isAdmin.i]</h4>
+                <button type="submit" class="btn btn-primary col-3" asp-page-handler="ToggleAdmin">@(isAdmin.value ? "Remove Admin" : "Assign Admin")</button>
+            </form>
+        </li>
+    }
+</ul>
