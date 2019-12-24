@@ -12,7 +12,7 @@ namespace ToDoFinal.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=ToDoFinal;Trusted_Connection=True;MultipleActiveResultSets=true");
+            optionsBuilder.UseSqlServer("Server=tcp:ignokitm.database.windows.net,1433;Initial Catalog=ToDoFinal;Persist Security Info=False;User ID=taipignas;Password=ca9rcgG^4MSL;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
         }
     }
 }
