@@ -2129,7 +2129,8 @@
       },
       "ToDoFinal.Services/1.0.0": {
         "dependencies": {
-          "ToDoFinal.Data": "1.0.0"
+          "ToDoFinal.Data": "1.0.0",
+          "ToDoFinal.Identity": "1.0.0"
         },
         "runtime": {
           "ToDoFinal.Services.dll": {}

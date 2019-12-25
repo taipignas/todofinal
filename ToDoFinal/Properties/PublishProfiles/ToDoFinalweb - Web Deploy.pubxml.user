@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAZGzVv3Z7kUSUhZKWkH/McgAAAAACAAAAAAAQZgAAAAEAACAAAADagS5/q71dUdHjNo3MIhkC3D8CA0iOOi3VfXzq4Z779gAAAAAOgAAAAAIAACAAAACTeFK+PcNfiji5PKVrmhsgbInsof2Tffe6lWRH8ij6F4AAAACzGgsnzysatiO2gVtx35wdlq4lFcdl+T2MYTtGXdJvBhZ5TPBsmy34RDk1lidhYROwDw79bHNtTaezjs6pAh+gxvZtw5fEzXu890jA+AJCJoRVTss/uVrkXEBodN0i5gGf2SzbRH5yAozETyPX8mS6EdYqTWjANfKGXP7Gghz38kAAAAAdjSGYfMJ05L/zYByILBPQtpHq1+N4kIhsZPa5o4CQh/eyxk8JdAhoIlXKcw+hV+iFeJ+HWo/o0U3aHEK4hxtl</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="ToDoFinalConnection">
+      <Value>Server=tcp:ignokitm.database.windows.net,1433%3bInitial Catalog=ToDoFinal%3bPersist Security Info=False%3bUser ID=taipignas%3bPassword=ca9rcgG^4MSL%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

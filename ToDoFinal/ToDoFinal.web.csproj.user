@@ -7,6 +7,6 @@
     <WebStackScaffolding_IsLayoutPageSelected>False</WebStackScaffolding_IsLayoutPageSelected>
     <WebStackScaffolding_IsPartialViewSelected>False</WebStackScaffolding_IsPartialViewSelected>
     <WebStackScaffolding_IsReferencingScriptLibrariesSelected>True</WebStackScaffolding_IsReferencingScriptLibrariesSelected>
-    <NameOfLastUsedPublishProfile>todofinal - ReadOnly - FTP</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>ToDoFinalweb - Web Deploy</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

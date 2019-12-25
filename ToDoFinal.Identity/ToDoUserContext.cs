@@ -5,9 +5,14 @@ namespace ToDoFinal.Identity
 {
     public class ToDoUserContext : IdentityDbContext<ToDoUser>
     {
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        public ToDoUserContext(DbContextOptions<ToDoUserContext> options)
+            : base(options)
         {
-            optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=ToDoFinal;Trusted_Connection=True;MultipleActiveResultSets=true");
+
         }
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //    optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=ToDoFinal;Trusted_Connection=True;MultipleActiveResultSets=true");
+        //}
     }
 }

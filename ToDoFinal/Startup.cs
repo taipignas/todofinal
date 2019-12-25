@@ -1,10 +1,5 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -12,6 +7,7 @@ using ToDoFinal.Data;
 using ToDoFinal.Identity;
 using Microsoft.AspNetCore.Identity;
 using ToDoFinal.Services;
+using Microsoft.EntityFrameworkCore;
 
 namespace ToDoFinal.web
 {
@@ -28,8 +24,10 @@ namespace ToDoFinal.web
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
-            services.AddDbContext<ToDoUserContext>();
-            services.AddDbContext<ToDoModelContext>();
+            services.AddDbContext<ToDoUserContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("ToDoFinalConnection")));
+            services.AddDbContext<ToDoModelContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("ToDoFinalConnection")));
 
             services.AddDefaultIdentity<ToDoUser>()
                     .AddRoles<IdentityRole>()

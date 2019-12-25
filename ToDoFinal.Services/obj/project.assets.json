@@ -5075,11 +5075,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ignas\\source\\repos\\ToDoFinal\\ToDoFinal.Services\\ToDoFinal.Services.csproj",
+      "projectUniqueName": "C:\\Users\\Ignas\\source2\\ToDoFinal\\ToDoFinal.Services\\ToDoFinal.Services.csproj",
       "projectName": "ToDoFinal.Services",
-      "projectPath": "C:\\Users\\Ignas\\source\\repos\\ToDoFinal\\ToDoFinal.Services\\ToDoFinal.Services.csproj",
+      "projectPath": "C:\\Users\\Ignas\\source2\\ToDoFinal\\ToDoFinal.Services\\ToDoFinal.Services.csproj",
       "packagesPath": "C:\\Users\\Ignas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ignas\\source\\repos\\ToDoFinal\\ToDoFinal.Services\\obj\\",
+      "outputPath": "C:\\Users\\Ignas\\source2\\ToDoFinal\\ToDoFinal.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5098,11 +5098,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Ignas\\source\\repos\\ToDoFinal\\ToDoFinal.Data\\ToDoFinal.Data.csproj": {
-              "projectPath": "C:\\Users\\Ignas\\source\\repos\\ToDoFinal\\ToDoFinal.Data\\ToDoFinal.Data.csproj"
+            "C:\\Users\\Ignas\\source2\\ToDoFinal\\ToDoFinal.Data\\ToDoFinal.Data.csproj": {
+              "projectPath": "C:\\Users\\Ignas\\source2\\ToDoFinal\\ToDoFinal.Data\\ToDoFinal.Data.csproj"
             },
-            "C:\\Users\\Ignas\\source\\repos\\ToDoFinal\\ToDoFinal.Identity\\ToDoFinal.Identity.csproj": {
-              "projectPath": "C:\\Users\\Ignas\\source\\repos\\ToDoFinal\\ToDoFinal.Identity\\ToDoFinal.Identity.csproj"
+            "C:\\Users\\Ignas\\source2\\ToDoFinal\\ToDoFinal.Identity\\ToDoFinal.Identity.csproj": {
+              "projectPath": "C:\\Users\\Ignas\\source2\\ToDoFinal\\ToDoFinal.Identity\\ToDoFinal.Identity.csproj"
             }
           }
         }

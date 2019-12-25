@@ -6,3 +6,11 @@ C:\Users\Ignas\source\repos\ToDoFinal\ToDoFinal.Models\bin\Debug\netcoreapp3.1\T
 C:\Users\Ignas\source\repos\ToDoFinal\ToDoFinal.Models\bin\Debug\netcoreapp3.1\ToDoFinal.Models.pdb
 C:\Users\Ignas\source\repos\ToDoFinal\ToDoFinal.Models\obj\Debug\netcoreapp3.1\ToDoFinal.Models.dll
 C:\Users\Ignas\source\repos\ToDoFinal\ToDoFinal.Models\obj\Debug\netcoreapp3.1\ToDoFinal.Models.pdb
+C:\Users\Ignas\source2\ToDoFinal\ToDoFinal.Models\bin\Debug\netcoreapp3.1\ToDoFinal.Models.deps.json
+C:\Users\Ignas\source2\ToDoFinal\ToDoFinal.Models\bin\Debug\netcoreapp3.1\ToDoFinal.Models.dll
+C:\Users\Ignas\source2\ToDoFinal\ToDoFinal.Models\bin\Debug\netcoreapp3.1\ToDoFinal.Models.pdb
+C:\Users\Ignas\source2\ToDoFinal\ToDoFinal.Models\obj\Debug\netcoreapp3.1\ToDoFinal.Models.csprojAssemblyReference.cache
+C:\Users\Ignas\source2\ToDoFinal\ToDoFinal.Models\obj\Debug\netcoreapp3.1\ToDoFinal.Models.AssemblyInfoInputs.cache
+C:\Users\Ignas\source2\ToDoFinal\ToDoFinal.Models\obj\Debug\netcoreapp3.1\ToDoFinal.Models.AssemblyInfo.cs
+C:\Users\Ignas\source2\ToDoFinal\ToDoFinal.Models\obj\Debug\netcoreapp3.1\ToDoFinal.Models.dll
+C:\Users\Ignas\source2\ToDoFinal\ToDoFinal.Models\obj\Debug\netcoreapp3.1\ToDoFinal.Models.pdb
